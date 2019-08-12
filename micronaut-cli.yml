@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.error.log.using.sentry
+---
+testFramework: junit
+sourceLanguage: java
