@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 @Controller("/sentry")
 public class SentryController {
-    private final String email = "ang.kionglam.aries@gmail.com"; //Change This
+    private final String email = "xxxx.com"; //Change This
     private Logger log = LoggerFactory.getLogger(SentryController.class);
 
     void unsafeMethod() {
