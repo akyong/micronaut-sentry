@@ -7,7 +7,15 @@ import io.sentry.event.BreadcrumbBuilder;
 import io.sentry.event.UserBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+/**
+ * <p>Contoh 'Cara Menggunakan Sentry'</p>
+ * <link>https://sentry.io</link>
+ * Service ini dibuat untuk membantu para developer
+ * agar bisa mengetahui ada bug atau error yang terjadi pada
+ * codingan anda lewat email.
+ *
+ * @Author Bobby Akyong
+ * */
 @Controller("/sentry")
 public class SentryController {
     private final String email = "xxxx.com"; //Change This
